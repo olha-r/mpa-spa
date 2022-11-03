@@ -1,0 +1,24 @@
+{
+    "brand": "SPA",
+    "home": {
+        "menuItem": "Home",
+        "h1": "Welcome to MPA/CSR demo",
+        "h2": "Title 2 of home page"
+    },
+    "contact": {
+        "menuItem": "Contact",
+        "h1": "Contact"
+    },
+    "signIn": {
+        "menuItem": "Sign-in",
+        "h1": "Sign-in"
+    },
+    "about": {
+        "menuItem": "About",
+        "h1": "About",
+        "h2": "Title 2 of about page"
+    },
+    "notFound": {
+        "h1": "404 NOT FOUND"
+    }
+}
