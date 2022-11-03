@@ -15,7 +15,7 @@ function renderMenu() {
                         <a class="nav-link" href="/#/home">${messages.home.menuItem}</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/#/contact">${messages.contact.menuItem}</a>
+                        <a class="nav-link" href="/#/profile">${messages.profile.menuItem}</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/#/sign-in">${messages.signIn.menuItem}</a>

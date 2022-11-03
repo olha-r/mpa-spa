@@ -1,10 +1,10 @@
 import { renderHome } from "./components/home.js";
 import { renderAbout } from "./components/about.js";
 import { renderSignIn } from "./components/signIn.js";
-import { renderContact } from "./components/contact.js";
+import { renderProfile } from "./components/profile.js";
 import { renderNotFound } from "./components/notFound.js";
 
-const routes = ["#/home", "#/about", "#/sign-in", "#/contact"];
+const routes = ["#/home", "#/about", "#/sign-in", "#/profile"];
 window.addEventListener("hashchange", (event) => route(event));
 // window.onhashchange = route;
 console.log(window.navigator.language);
@@ -17,8 +17,8 @@ function route(event) {
         renderSignIn();
     } else if (hash == "#/about") {
         renderAbout();
-    } else if (hash == "#/contact") {
-        renderContact();
+    } else if (hash == "#/profile") {
+        renderProfile();
     } else {
         renderNotFound()
     }

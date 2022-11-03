@@ -5,9 +5,14 @@
         "h1": "Bienvenue au MPA/CSR demo",
         "h2": "Second titre de la page d'accueil"
     },
-    "contact": {
-        "menuItem": "Contact",
-        "h1": "Contact"
+    "profile": {
+        "menuItem": "Profil",
+        "h1": "Créer un profil",
+        "email": "Adresse email",
+        "firstName": "Prénom",
+        "lastName": "Nom",
+        "trainer": "Je suis formateur",
+        "submit": "Créer"
     },
     "signIn": {
         "menuItem": "Connexion",
