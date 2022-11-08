@@ -1,14 +1,14 @@
-import { messages } from "../messages.js";
+import Messages from "../Messages.js";
 
 function renderSignIn() {
-    const content = `
-      <h1>${messages.signIn.h1}</h1>
+  const content = `
+      <h1>${Messages.messages.signIn.h1}</h1>
       <p>This is a sign-in page</p>
     `
 
-    const main = document.getElementById("main");
+  const main = document.getElementById("main");
 
-    main.innerHTML = content;
+  main.innerHTML = content;
 }
 
 export { renderSignIn };
