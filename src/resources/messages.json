@@ -14,9 +14,9 @@
         "trainer": "I am a trainer",
         "submit": "Create"
     },
-    "signIn": {
-        "menuItem": "Sign-in",
-        "h1": "Sign-in"
+    "profiles": {
+        "menuItem": "Profiles",
+        "h1": "Liste de tout les profiles"
     },
     "about": {
         "menuItem": "About",

@@ -1,9 +1,19 @@
-import BaseComponent from "./BaseComponent.js";
+import BaseFormComponent from "./BaseFormComponent.js";
 
-export default class ProfileComponent extends BaseComponent {
+export default class ProfileComponent extends BaseFormComponent {
   constructor() {
-    super("#main")
+    super("#main", {})
   }
+
+  dataModel() {
+    return {
+      firstName: "Olha",
+      lastName: "Raulet",
+      email: "email@email.com",
+      trainer: false
+    };
+  }
+
   template() {
     return `
       <h1>${this.msg.profile.h1}</h1>

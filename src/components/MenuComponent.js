@@ -22,7 +22,7 @@ export default class MenuComponent extends BaseComponent {
                             <a class="nav-link" href="/#/profile">${this.msg.profile.menuItem}</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/#/sign-in">${this.msg.signIn.menuItem}</a>
+                            <a class="nav-link" href="/#/profiles">${this.msg.profiles.menuItem}</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="/#/about">${this.msg.about.menuItem}</a>

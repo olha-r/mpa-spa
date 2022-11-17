@@ -14,9 +14,9 @@
         "trainer": "Je suis formateur",
         "submit": "Créer"
     },
-    "signIn": {
-        "menuItem": "Connexion",
-        "h1": "Connexion-in"
+    "profiles": {
+        "menuItem": "Profile",
+        "h1": "Tout les profiles"
     },
     "about": {
         "menuItem": "A propos",

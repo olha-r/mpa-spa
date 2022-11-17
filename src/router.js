@@ -1,7 +1,7 @@
 import MenuComponent from "./components/MenuComponent.js";
 import HomeComponent from "./components/HomeComponent.js";
 import AboutComponent from "./components/AboutComponent.js";
-import SignInComponent from "./components/SignInComponent.js";
+import ProfilesComponent from "./components/ProfilesComponent.js";
 import ProfileComponent from "./components/ProfileComponent.js";
 import NotFoundComponent from "./components/NotFoundComponent.js";
 import FooterComponent from "./components/FooterComponent.js";
@@ -23,8 +23,8 @@ export default class Router {
         let component = null;
         if ((hash == "#/home") || (hash == "")) {
             component = new HomeComponent(); // Instance of HomeComponent
-        } else if (hash == "#/sign-in") {
-            component = new SignInComponent();
+        } else if (hash == "#/profiles") {
+            component = new ProfilesComponent();
         } else if (hash == "#/about") {
             component = new AboutComponent();
         } else if (hash == "#/profile") {
