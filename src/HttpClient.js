@@ -1,10 +1,20 @@
 export default class HttpClient {
-    static async send(url, method) {
+    static async send(url, method, data) {
         const options = {
-            method: method
+            method: method,
+            headers: {
+                "Content-Type": "application/json"
+            }
+        }
+        if (data != null) {
+            options.body = JSON.stringify(data);
         }
         const response = await fetch(url, options);
+        const headers = response.headers;
+        if (headers.get("Content-Type") == "application/json") {
+            return await response.json(); //Json object
+        }
+        return null;
 
-        return await response.json(); //Json object
     }
 }

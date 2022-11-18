@@ -2,7 +2,10 @@ import BaseFormComponent from "./BaseFormComponent.js";
 
 export default class ProfileComponent extends BaseFormComponent {
   constructor() {
-    super("#main", {})
+    super("#main", {
+      url: "http://localhost:8080/profiles",
+      method: "POST"
+    })
   }
 
   dataModel() {

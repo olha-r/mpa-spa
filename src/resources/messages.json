@@ -16,7 +16,7 @@
     },
     "profiles": {
         "menuItem": "Profiles",
-        "h1": "Liste de tout les profiles"
+        "h1": "All profiles"
     },
     "about": {
         "menuItem": "About",

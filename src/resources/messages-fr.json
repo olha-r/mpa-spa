@@ -15,8 +15,8 @@
         "submit": "Créer"
     },
     "profiles": {
-        "menuItem": "Profile",
-        "h1": "Tout les profiles"
+        "menuItem": "Profils",
+        "h1": "Liste de tout les profils"
     },
     "about": {
         "menuItem": "A propos",
