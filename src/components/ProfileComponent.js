@@ -20,7 +20,7 @@ export default class ProfileComponent extends BaseFormComponent {
   template() {
     return `
       <h1>${this.msg.profile.h1}</h1>
-      <form>
+      <form class="container-md">
         <div class="mb-3">
           <label for="firstName" class="form-label">${this.msg.profile.firstName}</label>
           <input name="firstName" id="firstName" type="text" class="form-control">
@@ -33,10 +33,20 @@ export default class ProfileComponent extends BaseFormComponent {
           <label for="email" class="form-label">${this.msg.profile.email}</label>
           <input name="email" id="email" type="email" class="form-control">
         </div>
+        <div class="mb-3">
+        <label for="preferredLanguage" class="form-label">${this.msg.profile.preferredLanguage}</label>
+          <select id="preferredLanguage" class="form-select">
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+            <option value="java">Java</option>
+            <option value="javascript">JavaScript</option>
+          </select>
+        </div>
         <div class="mb-3 form-check">
           <input name="trainer" id="trainer" type="checkbox" value="true" class="form-check-input">
           <label for="trainer" class="form-check-label">${this.msg.profile.trainer}</label>
         </div>
+        
         <button type="submit" class="btn btn-primary">${this.msg.profile.submit}</button>
       </form>
     `

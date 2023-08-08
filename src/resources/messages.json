@@ -11,6 +11,7 @@
         "email": "Email address",
         "firstName": "First name",
         "lastName": "Last name",
+        "preferredLanguage": "Preferred Language",
         "trainer": "I am a trainer",
         "submit": "Create"
     },
